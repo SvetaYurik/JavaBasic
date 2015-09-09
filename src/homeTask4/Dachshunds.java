@@ -1,4 +1,4 @@
-package animalsType;
+package homeTask4;
 
 /**
  * Created by Света on 09.09.2015.
