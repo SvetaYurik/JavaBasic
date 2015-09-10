@@ -21,7 +21,7 @@ public class Main{
 
         CircleFigure circle = new CircleFigure();
         circle.setR(5.0);
-        double circleArea = Math.PI * 2 * circle.getR() * circle.getR();
+        double circleArea = 2 * circle.getPI() * circle.getR() * circle.getR();
         System.out.println("Circle area = " + circleArea);
     }
 }
