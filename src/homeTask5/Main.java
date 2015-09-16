@@ -23,5 +23,10 @@ public class Main{
         circle.setR(5.0);
         double circleArea = 2 * circle.getPI() * circle.getR() * circle.getR();
         System.out.println("Circle area = " + circleArea);
+
+        SquareFigure square = new SquareFigure();
+        square.setA(4.0);
+        System.out.println("Square area = " + square.squareArea());
+
     }
 }
