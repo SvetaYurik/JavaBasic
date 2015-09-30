@@ -12,11 +12,17 @@ import java.util.Set;
 class ListOfInstancesCircle{
 
     public static void main (String [] args ) {
+
         CircleFigure circle = new CircleFigure();
+        circle.setR(3.0);
         double circleArea = circle.getPI() * circle.getR() * circle.getR();
         TriangleFigure triangle = new TriangleFigure();
+        triangle.setH(4.0);
+        triangle.setA(5.0);
         double triangleArea = 0.5 * triangle.getH() * triangle.getA();
         RectangleFigure rectangle = new RectangleFigure();
+        rectangle.setB(1.0);
+        rectangle.setA(1.0);
         double rectangleArea = rectangle.getA() * rectangle.getB();
 
         IdentityHashMap ihm = new IdentityHashMap();
