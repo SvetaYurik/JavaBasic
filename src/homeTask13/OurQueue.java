@@ -9,15 +9,7 @@ public class OurQueue implements DataAlgorithm {
 
 
     public OurQueue(int size) {
-        try {
-            maxSize = size;
-            queArray = new int[maxSize];
-        }catch (NegativeArraySizeException e){
-           System.out.println("Negative array size. Enter new array size");
-        }catch (NullPointerException e){
-            System.out.println("Null size of array");
-        }
-
+        queArray = new int[size];
         front = 0;
         rear = -1;
         nItems = 0;
@@ -25,30 +17,18 @@ public class OurQueue implements DataAlgorithm {
     }
 
     @Override
-    public boolean empty() { // true if queue is empty
+    public boolean isEmpty() { // true if queue is empty
         if (nItems == 0) return true;
         return false;
     }
 
     @Override
     public void push(int data) {
-       try {
-            if (rear == maxSize-1)
-                rear = -1;
-            rear++;
-            queArray[rear] = data;
-            nItems++;
-        }catch (ArrayIndexOutOfBoundsException e) {
-           System.out.println("array index out of bounds exception");
-       }catch (NullPointerException e){
-           System.out.println("bla bla");
-       }
-
-    }
-
-    @Override
-    public int peek() {
-        return queArray[front];
+        if (rear == maxSize - 1)
+            rear = -1;
+        rear++;
+        queArray[rear] = data;
+        nItems++;
     }
 
     @Override
@@ -59,5 +39,10 @@ public class OurQueue implements DataAlgorithm {
             front = 0;
         nItems--;
         return temp;
+    }
+
+    @Override
+    public int size(){
+        return queArray.length;
     }
 }

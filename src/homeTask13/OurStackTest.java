@@ -1,13 +1,12 @@
 package homeTask13;
 
+
 import junit.framework.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static junit.framework.TestCase.assertEquals;
+import static junit.framework.TestCase.assertTrue;
 
-/**
- * Created by Света on 13.10.2015.
- */
 public class OurStackTest {
     int s1 = 1;
     int s2 = 2;
@@ -22,7 +21,7 @@ public class OurStackTest {
     }
 
     @Test
-    public void testPush() throws Exception {
+    public void testPush()  throws Exception {
         s.push(s1);
         s.push(s2);
         s.push(s3);
@@ -31,16 +30,18 @@ public class OurStackTest {
         assertEquals(s.pop(), s1);
             }
 
-    @Test
-    public void testPeek() throws Exception {
 
-    }
 
     @Test
     public void testPop() throws Exception {
+    }
 
-
-
+    @Test
+    public void testSize() throws Exception{
+        s.push(s1);
+        s.push(s2);
+        s.push(s3);
+        assertEquals(s.size(), 3);
 
     }
 }
