@@ -1,48 +1,55 @@
 package homeTask13;
-public class Main extends Exception{
+public class Main {
 
-    static void throwOne(int size1) throws NegativeSizeOfArrayException, ZeroSizeArrayException {
-        OurStack s = new OurStack(size1);
+    static void throwOne(int size1) throws ZeroSizeArrayException, CrowdedArrayException {
+        FifoAlgorithm s = new FifoAlgorithm(size1);
+        if (size1 == 0)throw new ZeroSizeArrayException("zero");
+        if (size1 < 0)throw new NegativeArraySizeException("negative value");
         System.out.println("FIFO");
         s.push(1);
         s.push(12);
         s.push(8);
-        s.push(14);
-        if (size1 == 0)throw new ZeroSizeArrayException("zero");
-        if (size1 < 0)throw new NegativeSizeOfArrayException ("negative value");
+        s.push(9);
+        s.push(8);
+        s.pop();
+        s.pop();
+        s.pop();
+
         while (!s.isEmpty()) {
             System.out.println(s.pop());
+
         }
-        System.out.println("array size " + s.size());
+
     }
-    static void throwTwo(int size2) throws NegativeSizeOfArrayException, ZeroSizeArrayException {
+    static void throwTwo(int size2) throws ZeroSizeArrayException, CrowdedArrayException {
         System.out.println("LIFO");
-        OurQueue q = new OurQueue(size2);
-        q.push(3);
-        q.push(6);
-        q.push(23);
-        q.push(-1);
-        q.push(0);
-        q.push(7);
+        LifoAlgorithm q = new LifoAlgorithm(size2);
+        if (size2 < 0)throw new NegativeArraySizeException ("negative value");
         if (size2 == 0) throw new ZeroSizeArrayException("zero value");
-        if (size2 < 0)throw new NegativeSizeOfArrayException ("negative value");
+
+        q.push(3);
+        q.pop();
+        q.pop();
+
+
+
         while (!q.isEmpty()) {
             System.out.println(q.pop());
-        }
-        System.out.println("array size " + q.size());
 
+        }
     }
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws CrowdedArrayException {
         try {
-             throwOne(6);
-            throwTwo(6);
+            throwOne(3);
+            throwTwo(3);
 
+        }catch (NegativeArraySizeException e){
+            System.out.println("Negative value of array size.");
         }catch (ZeroSizeArrayException e){
-            System.out.println("utfhn");
-        }catch (NegativeSizeOfArrayException e){
-            System.out.println("iufndns");
+            System.out.println("Enter new value, please!");
+
         }
     }
     }

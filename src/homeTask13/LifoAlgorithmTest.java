@@ -4,12 +4,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class OurQueueTest {
+public class LifoAlgorithmTest {
     int q1 = 1;
     int q2 = 2;
     int q3 = 3;
     int q4 = 4;
-    OurQueue q = new OurQueue(4);
+    LifoAlgorithm q = new LifoAlgorithm(4);
 
     @Test
     public void testEmpty() throws Exception {
@@ -18,7 +18,7 @@ public class OurQueueTest {
     }
 
     @Test
-    public void testPush() throws Exception {
+    public void testPush() throws Exception, CrowdedArrayException {
         q.push(q1);
         q.push(q2);
         q.push(q3);
@@ -29,14 +29,4 @@ public class OurQueueTest {
         assertEquals(q.pop(), q4);
     }
 
-    @Test
-    public void testPeek() throws Exception {
-
-
-    }
-
-    @Test
-    public void testPop() throws Exception {
-
-    }
 }

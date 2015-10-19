@@ -1,19 +1,19 @@
 package homeTask13;
 
-public class OurQueue implements DataAlgorithm {
+public class LifoAlgorithm implements FifoLifoAlgorithm {
     private int maxSize; //size of queue
     private int[] queArray;
     private int front; // pointer for first element of queue
     private int rear; // last element of queue
-    private int nItems; // quantity of elements
+    protected int nItems; // quantity of elements
 
 
-    public OurQueue(int size) {
+
+    public LifoAlgorithm(int size) {
         queArray = new int[size];
         front = 0;
         rear = -1;
         nItems = 0;
-
     }
 
     @Override
@@ -24,6 +24,7 @@ public class OurQueue implements DataAlgorithm {
 
     @Override
     public void push(int data) {
+        if (rear < 0)
         if (rear == maxSize - 1)
             rear = -1;
         rear++;
@@ -32,17 +33,16 @@ public class OurQueue implements DataAlgorithm {
     }
 
     @Override
-    public int pop() {
-        int temp = queArray[front];
-        front++;
-        if (front == maxSize)
-            front = 0;
-        nItems--;
-        return temp;
+    public int pop() throws CrowdedArrayException {
+            int temp = queArray[front];
+            front++;
+            if (front == maxSize)
+                front = 0;
+            nItems--;
+            return temp;
+        }
     }
 
-    @Override
-    public int size(){
-        return queArray.length;
-    }
-}
+
+
+

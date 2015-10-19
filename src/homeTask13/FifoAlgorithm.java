@@ -1,14 +1,15 @@
 package homeTask13;
 
-public class OurStack implements DataAlgorithm {
-    //public int maxSize; // size of stack
+public class FifoAlgorithm implements FifoLifoAlgorithm {
     protected int[] stackArray; //
     protected int top; // top of stack
 
-    public OurStack(int size) {
+
+    public FifoAlgorithm(int size) {
 
             stackArray = new int[size];
             top = -1; // while is no one element
+
 
     }
 
@@ -25,21 +26,19 @@ public class OurStack implements DataAlgorithm {
             stackArray = temp;
             stackArray[++top] = item;
         }else stackArray[++top] = item;
+
+
     }
 
     @Override
-    public int pop() {
+    public int pop() throws CrowdedArrayException {
+
         if (top < 0) {
-            System.out.println("stack ne zagrujen");
-            return  0;
-        }else
+            throw new CrowdedArrayException("Crowded array!");
+        }else {
             return stackArray[top--];
         }
-    @Override
-    public int size() {
-        return stackArray.length;
-    }
-
+        }
     }
 
 
