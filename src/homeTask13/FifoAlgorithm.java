@@ -33,12 +33,14 @@ public class FifoAlgorithm implements FifoLifoAlgorithm {
     @Override
     public int pop() throws CrowdedArrayException {
 
-        if (top < 0) {
+
+        if (isEmpty())
             throw new CrowdedArrayException("Crowded array!");
-        }else {
-            return stackArray[top--];
+
+        return stackArray[top--];
+
         }
         }
-    }
+
 
 

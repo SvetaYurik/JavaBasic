@@ -8,12 +8,9 @@ public class Main {
         System.out.println("FIFO");
         s.push(1);
         s.push(12);
-        s.push(8);
-        s.push(9);
-        s.push(8);
+        s.push(7);
         s.pop();
-        s.pop();
-        s.pop();
+
 
         while (!s.isEmpty()) {
             System.out.println(s.pop());
@@ -27,10 +24,10 @@ public class Main {
         if (size2 < 0)throw new NegativeArraySizeException ("negative value");
         if (size2 == 0) throw new ZeroSizeArrayException("zero value");
 
+
         q.push(3);
         q.pop();
         q.pop();
-
 
 
         while (!q.isEmpty()) {
@@ -39,17 +36,15 @@ public class Main {
         }
     }
 
-
     public static void main(String[] args) throws CrowdedArrayException {
         try {
             throwOne(3);
             throwTwo(3);
 
         }catch (NegativeArraySizeException e){
-            System.out.println("Negative value of array size.");
+            System.out.println("You enter negative value of array size.");
         }catch (ZeroSizeArrayException e){
-            System.out.println("Enter new value, please!");
-
+            System.out.println("You enter zero size of array. Enter new value, please!");
         }
     }
     }

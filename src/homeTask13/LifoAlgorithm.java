@@ -17,14 +17,14 @@ public class LifoAlgorithm implements FifoLifoAlgorithm {
     }
 
     @Override
-    public boolean isEmpty() { // true if queue is empty
+    public boolean isEmpty() throws CrowdedArrayException { // true if queue is empty
         if (nItems == 0) return true;
         return false;
+
     }
 
     @Override
     public void push(int data) {
-        if (rear < 0)
         if (rear == maxSize - 1)
             rear = -1;
         rear++;
@@ -34,13 +34,15 @@ public class LifoAlgorithm implements FifoLifoAlgorithm {
 
     @Override
     public int pop() throws CrowdedArrayException {
-            int temp = queArray[front];
-            front++;
-            if (front == maxSize)
-                front = 0;
-            nItems--;
-            return temp;
-        }
+        if (isEmpty()) throw new CrowdedArrayException ("message");
+        int temp = queArray[front];
+        front++;
+        if (front == maxSize)
+            front = 0;
+
+        nItems--;
+        return temp;
+    }
     }
 
 

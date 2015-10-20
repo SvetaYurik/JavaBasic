@@ -33,8 +33,31 @@
         <entry file="file://$PROJECT_DIR$/src/homeTask13/LifoAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FullArrayException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/homeTask13/FullArrayException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrowdedArrayException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/homeTask13/CrowdedArrayException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,29 +66,17 @@
         <entry file="file://$PROJECT_DIR$/src/homeTask13/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FifoAlgorithmTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homeTask13/FifoAlgorithmTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LifoAlgorithmTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LifoAlgorithmTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/homeTask13/LifoAlgorithmTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.48831168">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FifoAlgorithm.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FifoAlgorithm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homeTask13/FifoAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72987014">
-              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -110,8 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/homeTask8/AreaParser.java" />
-        <option value="$PROJECT_DIR$/src/homeTask8/Grabber.java" />
         <option value="$PROJECT_DIR$/src/homeTask8/ListOfInstancesAnimals.java" />
         <option value="$PROJECT_DIR$/src/homeTask9/ListOfInstancesCircle.java" />
         <option value="$PROJECT_DIR$/src/homeTask5/Main.java" />
@@ -154,13 +163,15 @@
         <option value="$PROJECT_DIR$/src/homeTask13/CrowdedArrayException.java" />
         <option value="$PROJECT_DIR$/src/homeTask13/OurQueueTest.java" />
         <option value="$PROJECT_DIR$/src/homeTask13/OurStackTest.java" />
-        <option value="$PROJECT_DIR$/src/homeTask13/Main.java" />
         <option value="$PROJECT_DIR$/src/homeTask13/DataAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/homeTask13/OurStack.java" />
         <option value="$PROJECT_DIR$/src/homeTask13/OurQueue.java" />
-        <option value="$PROJECT_DIR$/src/homeTask13/LifoAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/homeTask13/FifoAlgorithmTest.java" />
         <option value="$PROJECT_DIR$/src/homeTask13/LifoAlgorithmTest.java" />
+        <option value="$PROJECT_DIR$/src/homeTask13/FifoAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/homeTask13/FullArrayException.java" />
+        <option value="$PROJECT_DIR$/src/homeTask13/LifoAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/homeTask13/Main.java" />
       </list>
     </option>
   </component>
@@ -719,12 +730,12 @@
       <workItem from="1445071399221" duration="6264000" />
       <workItem from="1445101953750" duration="605000" />
       <workItem from="1445188358176" duration="5671000" />
-      <workItem from="1445239337935" duration="22082000" />
+      <workItem from="1445239337935" duration="27383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76208000" />
+    <option name="totallyTimeSpent" value="81509000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -787,13 +798,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/homeTask13/FifoAlgorithmTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/homeTask4/диаграмма класса.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1084,17 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeTask13/CrowdedArrayException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/homeTask7/InvalidCharacterException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1111,8 +1104,8 @@
         <state vertical-scroll-proportion="0.22077923">
           <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="false" />
+            <element signature="e#198#199#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1122,43 +1115,9 @@
         <state vertical-scroll-proportion="0.22077923">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="false" />
+            <element signature="e#156#157#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeTask13/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeTask13/LifoAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeTask13/FifoAlgorithmTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeTask13/LifoAlgorithmTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,10 +1129,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/homeTask13/FifoAlgorithmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65194803">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/homeTask13/FifoAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72987014">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homeTask13/CrowdedArrayException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homeTask13/FullArrayException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homeTask13/LifoAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homeTask13/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homeTask13/LifoAlgorithmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48831168">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
