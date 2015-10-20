@@ -9,8 +9,6 @@ public class FifoAlgorithm implements FifoLifoAlgorithm {
 
             stackArray = new int[size];
             top = -1; // while is no one element
-
-
     }
 
     public boolean isEmpty() {
@@ -26,7 +24,6 @@ public class FifoAlgorithm implements FifoLifoAlgorithm {
             stackArray = temp;
             stackArray[++top] = item;
         }else stackArray[++top] = item;
-
 
     }
 

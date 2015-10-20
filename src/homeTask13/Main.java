@@ -10,25 +10,20 @@ public class Main {
         s.push(12);
         s.push(7);
         s.pop();
-
-
         while (!s.isEmpty()) {
             System.out.println(s.pop());
-
         }
-
     }
+
     static void throwTwo(int size2) throws ZeroSizeArrayException, CrowdedArrayException {
         System.out.println("LIFO");
         LifoAlgorithm q = new LifoAlgorithm(size2);
         if (size2 < 0)throw new NegativeArraySizeException ("negative value");
         if (size2 == 0) throw new ZeroSizeArrayException("zero value");
-
-
         q.push(3);
+        q.push(4);
+        q.push(5);
         q.pop();
-        q.pop();
-
 
         while (!q.isEmpty()) {
             System.out.println(q.pop());

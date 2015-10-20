@@ -1,6 +1,5 @@
 package homeTask13;
 
-
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
@@ -26,6 +25,14 @@ public class FifoAlgorithmTest {
         s.push(s3);
         assertEquals(s.pop(), s3);
         assertEquals(s.pop(), s2);
+        assertEquals(s.pop(), s1);
+    }
+
+    @Test
+    public void testPop() throws Exception, CrowdedArrayException{
+        s.push(s1);
+        s.push(s2);
+        s.pop();
         assertEquals(s.pop(), s1);
     }
 

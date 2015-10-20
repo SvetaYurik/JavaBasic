@@ -29,4 +29,14 @@ public class LifoAlgorithmTest {
         assertEquals(q.pop(), q4);
     }
 
+    @Test
+    public void testPop() throws Exception, CrowdedArrayException{
+        q.push(q1);
+        q.push(q2);
+        q.push(q3);
+        q.pop();
+        assertEquals(q.pop(), q2);
+        assertEquals(q.pop(), q3);
+    }
+
 }
